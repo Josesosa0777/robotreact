@@ -19,7 +19,6 @@ class App extends React.Component {
             .then(users => this.setState({ robots: users }));
     }
 
-
     // since in the const filteredRobots the value of this is not for the App, but for the input of the form
     // then, instead of set as: onSearchChange(event) {   
     // we set as:
